@@ -1,0 +1,18 @@
+[project]
+name = "xlsx"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Bomber99-debug",email = "andreyrybchenko16@gmail.com"}
+]
+requires-python = ">=3.14"
+dependencies = [
+    "openpyxl (>=3.1.5,<4.0.0)",
+    "transliterate (>=1.10.2,<2.0.0)",
+    "paramiko (>=5.0.0,<6.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
